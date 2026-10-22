@@ -23,8 +23,9 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"dbcb92bc1b21895faf571ca00f29ccb3">
+		["MD5-CAM-1.0.1"] = <"797dbdb31daca682fc1f21c4ae7339db">
 		["build_uid"] = <"e30e2347-0997-3dba-aa25-b8b82423ec1a">
+		["ip_acknowledgements"] = <"This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org.">
 	>
 
 definition
@@ -94,6 +95,7 @@ definition
 	}
 
 ontology
+	terminologies_available = <"SNOMED-CT", ...>
 	term_definitions = <
 		["en"] = <
 			items = <
@@ -153,6 +155,15 @@ ontology
 					text = <"Comment">
 					description = <"">
 				>
+			>
+		>
+	>
+	term_bindings = <
+		["SNOMED-CT"] = <
+			items = <
+				["at0004"] = <[SNOMED-CT::266919005]>
+				["at0005"] = <[SNOMED-CT::8517006]>
+				["at0006"] = <[SNOMED-CT::77176002]>
 			>
 		>
 	>
